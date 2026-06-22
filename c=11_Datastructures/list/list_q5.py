@@ -14,3 +14,19 @@ if num_list == list:
 
 else:
     print(f"list is not sorted")
+
+
+
+"""
+Another Methode as well..
+
+a = [10, 20, 30, 40, 60, 50]
+
+for i in range(len(a)-1):
+    if a[i] > a[i+1]:
+        print("your list is not sorted")
+        break
+        
+    else:
+        print("your list is sorted")
+"""
